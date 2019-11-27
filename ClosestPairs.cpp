@@ -5,6 +5,7 @@
 #include "ClosestPairs.h"
 #include <cmath>
 #include <iostream>
+#include <algorithm>
 
 
 namespace cis263 {
@@ -20,7 +21,6 @@ namespace cis263 {
 
   // 
 
-
   ClosestPairs::PointPairSet ClosestPairs::closestPairsBruteForce(const PointVector &points,
                                                                   double tolerance) {
 
@@ -28,6 +28,5 @@ namespace cis263 {
     // 
     return answer;
   }
-
 
 }
