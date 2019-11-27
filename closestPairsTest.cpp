@@ -15,6 +15,7 @@
 #include "catch.hpp"
 #include<iostream>
 #include<random>
+#include<chrono>
 
 
 
@@ -866,7 +867,7 @@ TEST_CASE("big tie noRound uniformly random mirror image overlap") {
 // line.
 //
 // This test runs the divide and conquer algorithm on an input of 1 million points.
-// It won't finish unless your algorithm has O(n log n) running time.  When you are 
+// It won't finish unless your algorithm has O(n log n) running time.  When you are
 // confident your algorithm does have the desired running time, remove the "[.]" parameter
 // below.
 TEST_CASE("huge", "[.]") {
